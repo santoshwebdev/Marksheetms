@@ -1,0 +1,235 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Rubik', sans-serif;
+     font-weight: 200; 
+     box-sizing: bor;
+     
+}
+
+.small-header{
+     width: 100%;
+     height: 50px;
+     background-color:  rgb(240, 240, 19);
+     background-color: chocolate;
+}
+
+.header{
+     width: 100%;
+     height: 150px;
+     background-color:chocolate;
+}
+
+.navigation{
+     width: 80%;
+     height: 100px;
+     float: right;
+     padding-left: 50px;
+     margin-top: 40px;
+     margin-right: 180px;    
+}
+
+.navigation ul{
+     display: flex;
+     justify-content: center; 
+     height: 80px;
+}
+
+.navigation ul li{
+     padding-left: 30px;
+     list-style: none;
+     transition-duration: 1s;
+}
+
+.navigation ul li:hover{
+     transform: scale(1.2);
+     transform: rotate(360deg);
+}
+
+.navigation ul li a{
+     text-decoration: none;
+     color: rgb(240, 240, 19);
+     padding: 8px 12px; 
+     font-size: 16px;
+     border:2px solid rgb(240, 240, 19);
+     transition: all 0.5s ease-in;
+     border-radius: 2px;
+}
+
+.navigation ul li a:hover{
+     border: 2px solid rgb(240, 240, 19);
+     transform: rotate(360deg);
+     background-color: rgb(240, 240, 19);
+     color: #fff;
+}
+
+/*Admin login*/
+.admin-box{
+     width: 25%;  
+     background-color: goldenrod;
+     margin: auto;
+     margin-top: 50px;
+     border-radius: 10px;
+     box-sizing: border-box;
+     display: block;
+     float: right;
+     display: block;
+     animation: rotate 10s infinite;
+     margin-right: 80px;
+  /*   background-image: url("../img/img4.png");*/
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+
+.admin-box img{
+     width: 28%;
+     margin-left: 35%;
+     margin-top: 10px;
+     border: 2px solid #fff;
+     border-radius: 50%;
+}
+
+input{
+     width: 70%;
+     height: 30px;
+     margin-left: 15%;
+     border: none;   
+     font-size: 15px;
+     background-color: #ebfdf1;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-btn{
+     height: 38px;
+     cursor: pointer;
+     margin-bottom: 20px;
+     transition-duration: 0.5s;
+     
+}
+
+.submit-btn:hover{
+     transform: scale(1.1);
+     
+}
+@keyframes rotate{
+     0%{
+          background-color: gray;
+     }
+     10%{
+          background-color: aquamarine;
+     }
+     20%{
+          background-color: beige;
+     }
+     30%{
+          background-color: gainsboro;
+     }
+     40%{
+          background-color: goldenrod;
+     }
+     50%{
+          background-color: yellow;
+     }
+     60%{
+          background-color: yellowgreen;
+     }
+     70%{
+          background-color: gray;
+     }
+     80%{
+          background-color: aquamarine;
+     }
+     90%{
+          background-color: beige;
+     }
+     100%{
+          background-color: gainsboro;
+     }
+     40%{
+          background-color: goldenrod;
+     }
+     50%{
+          background-color: yellow;
+     }
+     60%{
+          background-color: yellowgreen;
+     }
+     0%{
+          background-color: gray;
+     }
+     10%{
+          background-color: aquamarine;
+     }
+     20%{
+          background-color: beige;
+     }
+     30%{
+          background-color: gainsboro;
+     }
+     40%{
+          background-color: goldenrod;
+     }
+     50%{
+          background-color: yellow;
+     }
+     60%{
+          background-color: yellowgreen;
+     }
+     
+}
+
+.heading-text h1{
+     padding-top: 100px;
+     font-size: 65px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 5px 3px 2px rgb(240, 240, 19);
+     color: #fff;
+     padding-left: 20px;
+     margin-top: 100px;
+     text-align: center;
+}
+
+.heading-textadmin h1{
+     padding-top: 100px;
+     font-size: 35px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 5px 3px 2px rgb(240, 240, 19);
+     color: #000;
+     padding-left: 15px;
+}
+
+.heading-textadmin  h3, h4{
+  word-spacing: 5px;
+  padding-left: 15px;
+  
+}
+
+.slide-bar{
+     width: 95%;
+     height: 500px;
+     background-image: url("../img/1.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: auto;   
+     border: 2px solid #fff;
+     box-shadow: 5px 5p 10px;
+     margin-top: 15px;
+     animation: slider 9s 5s infinite linear;
+}
+
+@keyframes slider {
+     0%{
+          background-image: url("../img/gallery.png");
+          transition-delay: 1s;
+     }
+     35%{
+          background-image: url("../img/3.png");
+     }
+     35%{
+          background-image: url("../img/3.png");
+     }
+}
+
+
